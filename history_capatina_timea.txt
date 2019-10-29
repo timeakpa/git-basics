@@ -1,0 +1,39 @@
+sudo
+sudo yum install git
+git --version
+git config --global user.name "Timea Capatina"
+git config --global user.email "timmy.tim316@gmail.com"
+git config --list
+ls
+mkdir Facultate
+cd Facultate/
+cd ..
+ls
+cd Facultate/
+ls
+git config --list
+https://github.com/timeakpa/git-basics.git
+git clone https://github.com/timeakpa/git-basics.git
+sudo yum install nano
+cd git-basics/
+nano myfile1.txt
+git add .
+git commit -m "My first commit."
+git push
+git config --global push.default simple
+git checkout -b br1
+git checkout master
+git checkout br1
+nano fis1.txt
+git add .
+git commit -m "My second commit."
+git push
+git push --set-upstream origin br1
+git status
+git checkout master
+git status
+git merge br1
+git status
+git push
+git pull
+history -w ./history_capatina_timea.txt
